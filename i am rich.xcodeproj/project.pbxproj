@@ -15,6 +15,7 @@
 		183DEE761C2ADA83006F780C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183DEE751C2ADA83006F780C /* Images.xcassets */; };
 		183DEE791C2ADA83006F780C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DEE771C2ADA83006F780C /* LaunchScreen.xib */; };
 		183DEE851C2ADA83006F780C /* i_am_richTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DEE841C2ADA83006F780C /* i_am_richTests.m */; };
+		183DEE8F1C2ADB15006F780C /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DEE8E1C2ADB15006F780C /* ruby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		183DEE7E1C2ADA83006F780C /* i am richTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "i am richTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183DEE831C2ADA83006F780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183DEE841C2ADA83006F780C /* i_am_richTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = i_am_richTests.m; sourceTree = "<group>"; };
+		183DEE8E1C2ADB15006F780C /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruby.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		183DEE651C2ADA83006F780C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				183DEE8E1C2ADB15006F780C /* ruby.png */,
 				183DEE661C2ADA83006F780C /* Info.plist */,
 				183DEE671C2ADA83006F780C /* main.m */,
 			);
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183DEE741C2ADA83006F780C /* Main.storyboard in Resources */,
+				183DEE8F1C2ADB15006F780C /* ruby.png in Resources */,
 				183DEE791C2ADA83006F780C /* LaunchScreen.xib in Resources */,
 				183DEE761C2ADA83006F780C /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				183DEE8A1C2ADA83006F780C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183DEE8B1C2ADA83006F780C /* Build configuration list for PBXNativeTarget "i am richTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				183DEE8D1C2ADA83006F780C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
